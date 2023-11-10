@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from 'react';
-import { GifItem } from './GifItem';
+import { GifItem } from '../components';
 import { useFetchGifs } from '../hooks/useFetchGifs';
 
 export const GifGrid = ({ category }) => {
